@@ -1,0 +1,25 @@
+{
+  "name": "laye",
+  "displayName": "神途laye",
+  "description": "神途laye",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "laye",
+      "aliases": ["神途laye", "laye"],
+      "extensions": [".laye"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "laye",
+      "scopeName": "source.laye",
+      "path": "./syntaxes/laye.tmLanguage.json"
+    }]
+  }
+}
