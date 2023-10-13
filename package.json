@@ -3,6 +3,7 @@
     "displayName": "神途laye",
     "description": "神途laye",
     "version": "0.0.2",
+    "publisher": "RichardCat",
     "engines": {
         "vscode": "^1.83.0"
     },
