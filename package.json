@@ -2,7 +2,7 @@
     "name": "laye",
     "displayName": "神途laye",
     "description": "神途laye",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "RichardCat",
     "engines": {
         "vscode": "^1.83.0"
