@@ -2,7 +2,7 @@
     "name": "laye",
     "displayName": "神途laye",
     "description": "神途laye",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "RichardCat",
     "engines": {
         "vscode": "^1.83.0"
@@ -28,7 +28,13 @@
             {
                 "language": "laye",
                 "scopeName": "source.laye",
-                "path": "./syntaxes/laye.tmLanguage.json"
+                "path": "./syntaxes/laye.tmLanguage.json",
+                "embeddedLanguages": {
+                    "source.lua": "lua"
+                },
+                "tokenTypes": {
+                    "meta.tag source.lua": "other"
+                }
             }
         ]
     }

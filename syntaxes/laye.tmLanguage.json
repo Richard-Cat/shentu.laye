@@ -84,6 +84,7 @@
             "beginCaptures": {"0": {"name": "punctuation.definition.string.begin.xml"}},
             "end": "]]>",
             "endCaptures": {"0": {"name": "punctuation.definition.string.end.xml"}},
+            "name": "source.lua.embedded.xml",
             "patterns": [{"include": "source.lua"}]
         }
     ],
@@ -163,3 +164,4 @@
         }
     }
 }
+
